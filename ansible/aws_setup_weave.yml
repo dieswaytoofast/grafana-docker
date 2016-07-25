@@ -5,7 +5,7 @@
   become: yes
   become_method: sudo
   vars_files:
-    - "{{ elk_config_file }}"
+    - "{{ grafana_config_file }}"
   roles:
     - baseline
     - common

@@ -35,7 +35,7 @@ $ PB_grafana_up.yml
 1. Taking everything down
 	
 ```
-$ PB_elk_down.yml
+$ PB_grafana_down.yml
 	
 ```
 1. Taking everything down, and flushing all volumes (removes logs!)

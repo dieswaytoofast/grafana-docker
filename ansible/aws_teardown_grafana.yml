@@ -1,11 +1,11 @@
 #!/usr/bin/env /usr/bin/ansible-playbook
 ---
 
-- hosts: elk
+- hosts: grafana
   become: yes
   become_method: sudo
   vars_files:
-    - "{{ elk_config_file }}"
+    - "{{ grafana_config_file }}"
   roles:
     - common
     - ansible_docker_utils
